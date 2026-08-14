@@ -88,7 +88,7 @@ p { margin: 0 0 12px; color: var(--color-text-muted); }
   display: flex; align-items: center; gap: 16px; padding: 14px 0;
 }
 .logo { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.4rem; color: var(--color-text); flex-shrink: 0; }
-.logo-img { height: 34px; width: auto; }
+.logo-img { height: 48px; width: auto; }
 .logo-tag { color: var(--color-accent); }
 
 .header-search { flex: 1; position: relative; max-width: 520px; display: none; }
@@ -246,6 +246,7 @@ p { margin: 0 0 12px; color: var(--color-text-muted); }
 .stock-badge { font-size: 0.82rem; font-weight: 600; padding: 4px 10px; border-radius: 0; }
 .stock-in { background: rgba(237,111,32,0.15); color: var(--color-accent); }
 .stock-out { background: rgba(255,92,92,0.15); color: var(--color-danger); }
+.product-sku { font-size: 0.82rem; color: var(--color-text-muted, #6b7280); }
 .price-block { display: flex; align-items: baseline; gap: 12px; margin: 16px 0; }
 .price-block .price-current { font-size: 2rem; }
 .qty-row { display: flex; align-items: center; gap: 12px; margin: 16px 0; }

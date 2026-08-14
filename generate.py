@@ -122,7 +122,7 @@ for _i, (_code, _power, _voltage, _phase, _note) in enumerate(INVERTER_MODELS, s
     if _note:
         _desc += " " + _note + "."
     PRODUCTS.append(dict(
-        id=_i, code=_code, slug="felicity-solar-%s" % _slugify(_code), category="invertory",
+        id=_i, sku="FLC-%03d" % _i, code=_code, slug="felicity-solar-%s" % _slugify(_code), category="invertory",
         name="Гібридний інвертор Felicity Solar %s" % _code,
         price=0, old_price=None, in_stock=True,
         desc=_desc,
@@ -138,11 +138,13 @@ for _i, (_code, _power, _voltage, _phase, _note) in enumerate(INVERTER_MODELS, s
 # Live price/stock sync from a published Google Sheet (CSV export)
 # ---------------------------------------------------------------------------
 # Publish the sheet as: File -> Share -> Publish to web -> CSV, then paste the
-# resulting URL below. Expected columns (header row): Модель, Ціна, Стара ціна,
-# В наявності. Rows are matched to products by the "Модель" code. If the URL
-# is empty or unreachable, prices/stock stay at their current values (0 /
-# in_stock=True) so the generator still works without the sheet.
-PRICE_SHEET_CSV_URL = ""
+# resulting URL below. Expected columns (header row): Артикул, Модель, Назва,
+# Ціна, В наявності. Rows are matched to products by "Артикул" (the FLC-###
+# SKU) since it's short and typo-proof, unlike the raw model codes which
+# contain spaces/tildes. If the URL is empty or unreachable, prices/stock
+# stay at their current values (0 / in_stock=True) so the generator still
+# works without the sheet.
+PRICE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2gl9sSPX4koEtBUKTvYjQ0jfitbai1FLeDIWNYQX4HLrDeLGUoBm89UMXS0DpwlS8PzciVuok_NzX/pub?gid=1073870778&single=true&output=csv"
 
 
 def load_price_sheet(url):
@@ -158,8 +160,8 @@ def load_price_sheet(url):
         return {}
     rows = {}
     for row in csv.DictReader(text.splitlines()):
-        code = (row.get("Модель") or "").strip()
-        if not code:
+        sku = (row.get("Артикул") or "").strip()
+        if not sku:
             continue
         def _num(key):
             v = (row.get(key) or "").strip().replace(" ", "").replace(",", ".")
@@ -168,13 +170,13 @@ def load_price_sheet(url):
         old_price = _num("Стара ціна")
         in_stock_raw = (row.get("В наявності") or "").strip().lower()
         in_stock = in_stock_raw in ("так", "true", "1", "yes", "+") if in_stock_raw else None
-        rows[code] = {"price": price, "old_price": old_price, "in_stock": in_stock}
+        rows[sku] = {"price": price, "old_price": old_price, "in_stock": in_stock}
     return rows
 
 
 _price_overrides = load_price_sheet(PRICE_SHEET_CSV_URL)
 for p in PRODUCTS:
-    override = _price_overrides.get(p["code"])
+    override = _price_overrides.get(p["sku"])
     if not override:
         continue
     if override["price"] is not None:
@@ -567,7 +569,7 @@ def gen_products_js():
     slim = []
     for p in PRODUCTS:
         slim.append({
-            "id": p["id"], "slug": p["slug"], "name": p["name"], "category": p["category"],
+            "id": p["id"], "sku": p["sku"], "slug": p["slug"], "name": p["name"], "category": p["category"],
             "categoryName": CATEGORIES[p["category"]]["name"], "price": p["price"],
             "oldPrice": p["old_price"], "discount": p["discount"], "inStock": p["in_stock"],
             "image": p["image"], "url": p["url"], "specs": p["specs"],
@@ -812,7 +814,7 @@ def gen_product_pages():
     <div class="product-info">
       <p class="product-cat"><a href="../../category/%(cat_slug)s/">%(cat_name)s</a></p>
       <h1>%(name)s</h1>
-      <div class="product-meta">%(stock)s</div>
+      <div class="product-meta">%(stock)s<span class="product-sku">Артикул: %(sku)s</span></div>
       <div class="price-block">%(price_html)s</div>
       %(cta)s
       <p>%(desc)s</p>
@@ -826,7 +828,7 @@ def gen_product_pages():
             "thumbs": thumbs_html,
             "name": p["name"], "cat_slug": p["category"], "cat_name": cat["name"],
             "stock": stock_html, "price_html": price_html, "cta": cta,
-            "desc": p["desc"], "specs": specs_rows,
+            "desc": p["desc"], "specs": specs_rows, "sku": p["sku"],
         }
 
         product_ld = json_ld({
@@ -834,7 +836,7 @@ def gen_product_pages():
             "@type": "Product",
             "name": p["name"],
             "description": p["desc"],
-            "sku": "FLC-%03d" % p["id"],
+            "sku": p["sku"],
             "image": [abs_url(p["image"])],
             "brand": {"@type": "Brand", "name": "Felicity Solar"},
             "offers": {
@@ -1034,6 +1036,22 @@ def gen_robots_sitemap():
     print("Wrote robots.txt and sitemap.xml with %d URLs." % len(urls))
 
 
+def gen_price_sheet_template():
+    import csv
+    import io
+    buf = io.StringIO()
+    writer = csv.writer(buf)
+    writer.writerow(["Артикул", "Модель", "Назва", "Ціна", "В наявності"])
+    for p in PRODUCTS:
+        writer.writerow([
+            p["sku"], p["code"], p["name"],
+            int(p["price"]) if p["price"] else 0,
+            "так" if p["in_stock"] else "ні",
+        ])
+    write_file("price-sheet-template.csv", buf.getvalue())
+    print("Wrote price-sheet-template.csv (%d rows) — import this into Google Sheets." % len(PRODUCTS))
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -1048,6 +1066,7 @@ def main():
     gen_static_pages()
     gen_cart_page()
     gen_robots_sitemap()
+    gen_price_sheet_template()
     print("\nDone. Site generated in", ROOT)
 
 

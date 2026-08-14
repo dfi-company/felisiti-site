@@ -2,6 +2,7 @@
 window.FELICITY_PRODUCTS = [
   {
     "id": 1,
+    "sku": "FLC-001",
     "slug": "felicity-solar-ivam6048p1g1",
     "name": "Гібридний інвертор Felicity Solar IVAM6048P1G1",
     "category": "invertory",
@@ -49,6 +50,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 2,
+    "sku": "FLC-002",
     "slug": "felicity-solar-ivam8048p1g1",
     "name": "Гібридний інвертор Felicity Solar IVAM8048P1G1",
     "category": "invertory",
@@ -96,6 +98,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 3,
+    "sku": "FLC-003",
     "slug": "felicity-solar-ivbm8048p1g1",
     "name": "Гібридний інвертор Felicity Solar IVBM8048P1G1",
     "category": "invertory",
@@ -143,6 +146,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 4,
+    "sku": "FLC-004",
     "slug": "felicity-solar-ivbm10048p1g1",
     "name": "Гібридний інвертор Felicity Solar IVBM10048P1G1",
     "category": "invertory",
@@ -190,6 +194,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 5,
+    "sku": "FLC-005",
     "slug": "felicity-solar-ivcm1012-2024-3024-pro",
     "name": "Гібридний інвертор Felicity Solar IVCM1012-2024-3024 PRO",
     "category": "invertory",
@@ -237,6 +242,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 6,
+    "sku": "FLC-006",
     "slug": "felicity-solar-ivcm1012-2024-lv",
     "name": "Гібридний інвертор Felicity Solar IVCM1012-2024-LV",
     "category": "invertory",
@@ -284,6 +290,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 7,
+    "sku": "FLC-007",
     "slug": "felicity-solar-ivcm1612p1g2-lv",
     "name": "Гібридний інвертор Felicity Solar IVCM1612P1G2-LV",
     "category": "invertory",
@@ -331,6 +338,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 8,
+    "sku": "FLC-008",
     "slug": "felicity-solar-ivcm2012-3224p1g2",
     "name": "Гібридний інвертор Felicity Solar IVCM2012-3224P1G2",
     "category": "invertory",
@@ -378,6 +386,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 9,
+    "sku": "FLC-009",
     "slug": "felicity-solar-ivem3024-5048",
     "name": "Гібридний інвертор Felicity Solar IVEM3024-5048",
     "category": "invertory",
@@ -425,6 +434,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 10,
+    "sku": "FLC-010",
     "slug": "felicity-solar-ivem3048-5048-lv",
     "name": "Гібридний інвертор Felicity Solar IVEM3048-5048-LV",
     "category": "invertory",
@@ -472,6 +482,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 11,
+    "sku": "FLC-011",
     "slug": "felicity-solar-ivem4024-ii",
     "name": "Гібридний інвертор Felicity Solar IVEM4024-II",
     "category": "invertory",
@@ -519,6 +530,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 12,
+    "sku": "FLC-012",
     "slug": "felicity-solar-ivem5048-salv",
     "name": "Гібридний інвертор Felicity Solar IVEM5048-SALV",
     "category": "invertory",
@@ -566,6 +578,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 13,
+    "sku": "FLC-013",
     "slug": "felicity-solar-ivem6048",
     "name": "Гібридний інвертор Felicity Solar IVEM6048",
     "category": "invertory",
@@ -613,6 +626,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 14,
+    "sku": "FLC-014",
     "slug": "felicity-solar-ivem6048-ii",
     "name": "Гібридний інвертор Felicity Solar IVEM6048-II",
     "category": "invertory",
@@ -660,6 +674,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 15,
+    "sku": "FLC-015",
     "slug": "felicity-solar-ivem6048-saii",
     "name": "Гібридний інвертор Felicity Solar IVEM6048-SAII",
     "category": "invertory",
@@ -707,6 +722,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 16,
+    "sku": "FLC-016",
     "slug": "felicity-solar-ivem4024-saii",
     "name": "Гібридний інвертор Felicity Solar IVEM4024-SAII",
     "category": "invertory",
@@ -754,6 +770,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 17,
+    "sku": "FLC-017",
     "slug": "felicity-solar-ivem8048",
     "name": "Гібридний інвертор Felicity Solar IVEM8048",
     "category": "invertory",
@@ -801,6 +818,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 18,
+    "sku": "FLC-018",
     "slug": "felicity-solar-ivem8048-ii",
     "name": "Гібридний інвертор Felicity Solar IVEM8048-II",
     "category": "invertory",
@@ -848,6 +866,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 19,
+    "sku": "FLC-019",
     "slug": "felicity-solar-ivem12048-ii",
     "name": "Гібридний інвертор Felicity Solar IVEM12048-II",
     "category": "invertory",
@@ -895,6 +914,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 20,
+    "sku": "FLC-020",
     "slug": "felicity-solar-ivgm3-6klp1g2",
     "name": "Гібридний інвертор Felicity Solar IVGM3~6KLP1G2",
     "category": "invertory",
@@ -942,6 +962,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 21,
+    "sku": "FLC-021",
     "slug": "felicity-solar-ivgm5-8klp1g1",
     "name": "Гібридний інвертор Felicity Solar IVGM5~8KLP1G1",
     "category": "invertory",
@@ -989,6 +1010,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 22,
+    "sku": "FLC-022",
     "slug": "felicity-solar-ivgm5-8klp2g1",
     "name": "Гібридний інвертор Felicity Solar IVGM5~8KLP2G1",
     "category": "invertory",
@@ -1036,6 +1058,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 23,
+    "sku": "FLC-023",
     "slug": "felicity-solar-ivgm5-8klp2g1-sa",
     "name": "Гібридний інвертор Felicity Solar IVGM5-8KLP2G1-SA",
     "category": "invertory",
@@ -1083,6 +1106,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 24,
+    "sku": "FLC-024",
     "slug": "felicity-solar-ivgm5k-6klp1g1",
     "name": "Гібридний інвертор Felicity Solar IVGM5K-6KLP1G1",
     "category": "invertory",
@@ -1130,6 +1154,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 25,
+    "sku": "FLC-025",
     "slug": "felicity-solar-ivgm8-25khp3g3",
     "name": "Гібридний інвертор Felicity Solar IVGM8~25KHP3G3",
     "category": "invertory",
@@ -1177,6 +1202,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 26,
+    "sku": "FLC-026",
     "slug": "felicity-solar-ivgm8klp2g1-sall",
     "name": "Гібридний інвертор Felicity Solar IVGM8KLP2G1-SALL",
     "category": "invertory",
@@ -1224,6 +1250,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 27,
+    "sku": "FLC-027",
     "slug": "felicity-solar-ivgm8klp2g1-us",
     "name": "Гібридний інвертор Felicity Solar IVGM8KLP2G1-US",
     "category": "invertory",
@@ -1271,6 +1298,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 28,
+    "sku": "FLC-028",
     "slug": "felicity-solar-ivgm10-20klp3g1",
     "name": "Гібридний інвертор Felicity Solar IVGM10~20KLP3G1",
     "category": "invertory",
@@ -1318,6 +1346,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 29,
+    "sku": "FLC-029",
     "slug": "felicity-solar-ivgm30khp3g2",
     "name": "Гібридний інвертор Felicity Solar IVGM30KHP3G2",
     "category": "invertory",
@@ -1365,6 +1394,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 30,
+    "sku": "FLC-030",
     "slug": "felicity-solar-ivgm50khp3g1",
     "name": "Гібридний інвертор Felicity Solar IVGM50KHP3G1",
     "category": "invertory",
@@ -1412,6 +1442,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 31,
+    "sku": "FLC-031",
     "slug": "felicity-solar-ivgm50khp3g2",
     "name": "Гібридний інвертор Felicity Solar IVGM50KHP3G2",
     "category": "invertory",
@@ -1459,6 +1490,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 32,
+    "sku": "FLC-032",
     "slug": "felicity-solar-ivgm125khp3g1",
     "name": "Гібридний інвертор Felicity Solar IVGM125KHP3G1",
     "category": "invertory",
@@ -1506,6 +1538,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 33,
+    "sku": "FLC-033",
     "slug": "felicity-solar-ivgm5048",
     "name": "Гібридний інвертор Felicity Solar IVGM5048",
     "category": "invertory",
@@ -1553,6 +1586,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 34,
+    "sku": "FLC-034",
     "slug": "felicity-solar-t-rex-10khp3g01",
     "name": "Гібридний інвертор Felicity Solar T-REX-10KHP3G01",
     "category": "invertory",
@@ -1600,6 +1634,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 35,
+    "sku": "FLC-035",
     "slug": "felicity-solar-t-rex-10klp3g01",
     "name": "Гібридний інвертор Felicity Solar T-REX-10KLP3G01",
     "category": "invertory",
@@ -1647,6 +1682,7 @@ window.FELICITY_PRODUCTS = [
   },
   {
     "id": 36,
+    "sku": "FLC-036",
     "slug": "felicity-solar-t-rex-50khp3g01",
     "name": "Гібридний інвертор Felicity Solar T-REX-50KHP3G01",
     "category": "invertory",
