@@ -7,7 +7,7 @@ window.FELICITY_PRODUCTS = [
     "name": "Гібридний інвертор Felicity Solar IVAM6048P1G1",
     "category": "invertory",
     "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
+    "price": 20000,
     "oldPrice": null,
     "discount": null,
     "inStock": true,
@@ -55,7 +55,7 @@ window.FELICITY_PRODUCTS = [
     "name": "Гібридний інвертор Felicity Solar IVAM8048P1G1",
     "category": "invertory",
     "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
+    "price": 30000,
     "oldPrice": null,
     "discount": null,
     "inStock": true,
@@ -1725,6 +1725,3174 @@ window.FELICITY_PRODUCTS = [
       [
         "Гарантія",
         "24 місяці"
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "sku": "FLC-037",
+    "slug": "felicity-solar-fla12100",
+    "name": "Акумулятор Felicity Solar FLA12100",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12100/01.png",
+    "url": "product/felicity-solar-fla12100/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12100"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "sku": "FLC-038",
+    "slug": "felicity-solar-fla12100pg2",
+    "name": "Акумулятор Felicity Solar FLA12100PG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12100pg2/01.png",
+    "url": "product/felicity-solar-fla12100pg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12100PG2"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 39,
+    "sku": "FLC-039",
+    "slug": "felicity-solar-fla12171-eu",
+    "name": "Акумулятор Felicity Solar FLA12171-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12171-eu/01.png",
+    "url": "product/felicity-solar-fla12171-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12171-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "171 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "sku": "FLC-040",
+    "slug": "felicity-solar-fla12200",
+    "name": "Акумулятор Felicity Solar FLA12200",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12200/01.png",
+    "url": "product/felicity-solar-fla12200/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12200"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "sku": "FLC-041",
+    "slug": "felicity-solar-fla12200pg2",
+    "name": "Акумулятор Felicity Solar FLA12200PG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12200pg2/01.png",
+    "url": "product/felicity-solar-fla12200pg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12200PG2"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "sku": "FLC-042",
+    "slug": "felicity-solar-fla12300",
+    "name": "Акумулятор Felicity Solar FLA12300",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12300/01.png",
+    "url": "product/felicity-solar-fla12300/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12300"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 43,
+    "sku": "FLC-043",
+    "slug": "felicity-solar-fla12300pg2",
+    "name": "Акумулятор Felicity Solar FLA12300PG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla12300pg2/01.png",
+    "url": "product/felicity-solar-fla12300pg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA12300PG2"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 44,
+    "sku": "FLC-044",
+    "slug": "felicity-solar-fla24100",
+    "name": "Акумулятор Felicity Solar FLA24100",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24100/01.png",
+    "url": "product/felicity-solar-fla24100/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24100"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 45,
+    "sku": "FLC-045",
+    "slug": "felicity-solar-fla24100-eu",
+    "name": "Акумулятор Felicity Solar FLA24100-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24100-eu/01.jpg",
+    "url": "product/felicity-solar-fla24100-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24100-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 46,
+    "sku": "FLC-046",
+    "slug": "felicity-solar-fla24100pg2",
+    "name": "Акумулятор Felicity Solar FLA24100PG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24100pg2/01.png",
+    "url": "product/felicity-solar-fla24100pg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24100PG2"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 47,
+    "sku": "FLC-047",
+    "slug": "felicity-solar-fla24100wg2",
+    "name": "Акумулятор Felicity Solar FLA24100WG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24100wg2/01.png",
+    "url": "product/felicity-solar-fla24100wg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24100WG2"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 48,
+    "sku": "FLC-048",
+    "slug": "felicity-solar-fla24171-eu",
+    "name": "Акумулятор Felicity Solar FLA24171-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24171-eu/01.jpg",
+    "url": "product/felicity-solar-fla24171-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24171-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "171 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 49,
+    "sku": "FLC-049",
+    "slug": "felicity-solar-fla24200",
+    "name": "Акумулятор Felicity Solar FLA24200",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24200/01.png",
+    "url": "product/felicity-solar-fla24200/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24200"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 50,
+    "sku": "FLC-050",
+    "slug": "felicity-solar-fla24200wg2",
+    "name": "Акумулятор Felicity Solar FLA24200WG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24200wg2/01.png",
+    "url": "product/felicity-solar-fla24200wg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24200WG2"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 51,
+    "sku": "FLC-051",
+    "slug": "felicity-solar-fla24230-eu",
+    "name": "Акумулятор Felicity Solar FLA24230-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24230-eu/01.jpg",
+    "url": "product/felicity-solar-fla24230-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24230-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "230 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 52,
+    "sku": "FLC-052",
+    "slug": "felicity-solar-fla24250",
+    "name": "Акумулятор Felicity Solar FLA24250",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24250/01.png",
+    "url": "product/felicity-solar-fla24250/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24250"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "250 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 53,
+    "sku": "FLC-053",
+    "slug": "felicity-solar-fla24250wg2",
+    "name": "Акумулятор Felicity Solar FLA24250WG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24250wg2/01.png",
+    "url": "product/felicity-solar-fla24250wg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24250WG2"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "250 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 54,
+    "sku": "FLC-054",
+    "slug": "felicity-solar-fla24280-eu",
+    "name": "Акумулятор Felicity Solar FLA24280-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24280-eu/01.jpg",
+    "url": "product/felicity-solar-fla24280-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24280-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "280 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 55,
+    "sku": "FLC-055",
+    "slug": "felicity-solar-fla24300",
+    "name": "Акумулятор Felicity Solar FLA24300",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24300/01.png",
+    "url": "product/felicity-solar-fla24300/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24300"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 56,
+    "sku": "FLC-056",
+    "slug": "felicity-solar-fla24300wg2",
+    "name": "Акумулятор Felicity Solar FLA24300WG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24300wg2/01.png",
+    "url": "product/felicity-solar-fla24300wg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24300WG2"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 57,
+    "sku": "FLC-057",
+    "slug": "felicity-solar-fla24460-eu",
+    "name": "Акумулятор Felicity Solar FLA24460-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24460-eu/01.jpg",
+    "url": "product/felicity-solar-fla24460-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24460-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "460 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 58,
+    "sku": "FLC-058",
+    "slug": "felicity-solar-fla24500",
+    "name": "Акумулятор Felicity Solar FLA24500",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla24500/01.png",
+    "url": "product/felicity-solar-fla24500/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA24500"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "500 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 59,
+    "sku": "FLC-059",
+    "slug": "felicity-solar-fla48100",
+    "name": "Акумулятор Felicity Solar FLA48100",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48100/01.png",
+    "url": "product/felicity-solar-fla48100/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48100"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 60,
+    "sku": "FLC-060",
+    "slug": "felicity-solar-fla48100-eu",
+    "name": "Акумулятор Felicity Solar FLA48100-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48100-eu/01.png",
+    "url": "product/felicity-solar-fla48100-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48100-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 61,
+    "sku": "FLC-061",
+    "slug": "felicity-solar-fla48100ug1",
+    "name": "Акумулятор Felicity Solar FLA48100UG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48100ug1/01.png",
+    "url": "product/felicity-solar-fla48100ug1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48100UG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 62,
+    "sku": "FLC-062",
+    "slug": "felicity-solar-fla48171-eu",
+    "name": "Акумулятор Felicity Solar FLA48171-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48171-eu/01.png",
+    "url": "product/felicity-solar-fla48171-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48171-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "171 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 63,
+    "sku": "FLC-063",
+    "slug": "felicity-solar-fla48200",
+    "name": "Акумулятор Felicity Solar FLA48200",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48200/01.png",
+    "url": "product/felicity-solar-fla48200/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48200"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 64,
+    "sku": "FLC-064",
+    "slug": "felicity-solar-fla48200-p",
+    "name": "Акумулятор Felicity Solar FLA48200-P",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48200-p/01.jpg",
+    "url": "product/felicity-solar-fla48200-p/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48200-P"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 65,
+    "sku": "FLC-065",
+    "slug": "felicity-solar-fla48230",
+    "name": "Акумулятор Felicity Solar FLA48230",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48230/01.png",
+    "url": "product/felicity-solar-fla48230/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48230"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "230 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 66,
+    "sku": "FLC-066",
+    "slug": "felicity-solar-fla48230-eu",
+    "name": "Акумулятор Felicity Solar FLA48230-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48230-eu/01.png",
+    "url": "product/felicity-solar-fla48230-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48230-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "230 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 67,
+    "sku": "FLC-067",
+    "slug": "felicity-solar-fla48250",
+    "name": "Акумулятор Felicity Solar FLA48250",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48250/01.png",
+    "url": "product/felicity-solar-fla48250/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48250"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "250 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 68,
+    "sku": "FLC-068",
+    "slug": "felicity-solar-fla48250-eu",
+    "name": "Акумулятор Felicity Solar FLA48250-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48250-eu/01.png",
+    "url": "product/felicity-solar-fla48250-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48250-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "250 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 69,
+    "sku": "FLC-069",
+    "slug": "felicity-solar-fla48280",
+    "name": "Акумулятор Felicity Solar FLA48280",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48280/01.png",
+    "url": "product/felicity-solar-fla48280/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48280"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "280 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 70,
+    "sku": "FLC-070",
+    "slug": "felicity-solar-fla48280-eu",
+    "name": "Акумулятор Felicity Solar FLA48280-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48280-eu/01.jpg",
+    "url": "product/felicity-solar-fla48280-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48280-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "280 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 71,
+    "sku": "FLC-071",
+    "slug": "felicity-solar-fla48300",
+    "name": "Акумулятор Felicity Solar FLA48300",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48300/01.png",
+    "url": "product/felicity-solar-fla48300/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48300"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 72,
+    "sku": "FLC-072",
+    "slug": "felicity-solar-fla48300-eu",
+    "name": "Акумулятор Felicity Solar FLA48300-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48300-eu/01.jpg",
+    "url": "product/felicity-solar-fla48300-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48300-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 73,
+    "sku": "FLC-073",
+    "slug": "felicity-solar-fla48300tg2",
+    "name": "Акумулятор Felicity Solar FLA48300TG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48300tg2/01.png",
+    "url": "product/felicity-solar-fla48300tg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48300TG2"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 74,
+    "sku": "FLC-074",
+    "slug": "felicity-solar-fla48314-eu",
+    "name": "Акумулятор Felicity Solar FLA48314-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48314-eu/01.png",
+    "url": "product/felicity-solar-fla48314-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48314-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "314 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 75,
+    "sku": "FLC-075",
+    "slug": "felicity-solar-fla48314-plus",
+    "name": "Акумулятор Felicity Solar FLA48314-PLUS",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48314-plus/01.png",
+    "url": "product/felicity-solar-fla48314-plus/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48314-PLUS"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "314 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 76,
+    "sku": "FLC-076",
+    "slug": "felicity-solar-fla48350tg2",
+    "name": "Акумулятор Felicity Solar FLA48350TG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48350tg2/01.png",
+    "url": "product/felicity-solar-fla48350tg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48350TG2"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "350 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 77,
+    "sku": "FLC-077",
+    "slug": "felicity-solar-fla48460-eu",
+    "name": "Акумулятор Felicity Solar FLA48460-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48460-eu/01.jpg",
+    "url": "product/felicity-solar-fla48460-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48460-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "460 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 78,
+    "sku": "FLC-078",
+    "slug": "felicity-solar-fla48460tg2-eu",
+    "name": "Акумулятор Felicity Solar FLA48460TG2-EU",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48460tg2-eu/01.png",
+    "url": "product/felicity-solar-fla48460tg2-eu/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48460TG2-EU"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "460 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 79,
+    "sku": "FLC-079",
+    "slug": "felicity-solar-fla48500",
+    "name": "Акумулятор Felicity Solar FLA48500",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48500/01.jpg",
+    "url": "product/felicity-solar-fla48500/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48500"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "500 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 80,
+    "sku": "FLC-080",
+    "slug": "felicity-solar-fla48500tg2",
+    "name": "Акумулятор Felicity Solar FLA48500TG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fla48500tg2/01.png",
+    "url": "product/felicity-solar-fla48500tg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLA48500TG2"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "500 А·год"
+      ],
+      [
+        "Серія",
+        "FLA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 81,
+    "sku": "FLC-081",
+    "slug": "felicity-solar-flb24100wg1",
+    "name": "Акумулятор Felicity Solar FLB24100WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flb24100wg1/01.png",
+    "url": "product/felicity-solar-flb24100wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLB24100WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLB"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 82,
+    "sku": "FLC-082",
+    "slug": "felicity-solar-flb24205-24230wg1",
+    "name": "Акумулятор Felicity Solar FLB24205-24230WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flb24205-24230wg1/01.png",
+    "url": "product/felicity-solar-flb24205-24230wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLB24205-24230WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "205–230 А·год"
+      ],
+      [
+        "Серія",
+        "FLB"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 83,
+    "sku": "FLC-083",
+    "slug": "felicity-solar-flb48100wg1",
+    "name": "Акумулятор Felicity Solar FLB48100WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flb48100wg1/01.png",
+    "url": "product/felicity-solar-flb48100wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLB48100WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLB"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 84,
+    "sku": "FLC-084",
+    "slug": "felicity-solar-flb48205-48230wg1",
+    "name": "Акумулятор Felicity Solar FLB48205-48230WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flb48205-48230wg1/01.png",
+    "url": "product/felicity-solar-flb48205-48230wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLB48205-48230WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "205–230 А·год"
+      ],
+      [
+        "Серія",
+        "FLB"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 85,
+    "sku": "FLC-085",
+    "slug": "felicity-solar-flb48314tg1",
+    "name": "Акумулятор Felicity Solar FLB48314TG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flb48314tg1/01.png",
+    "url": "product/felicity-solar-flb48314tg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLB48314TG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "314 А·год"
+      ],
+      [
+        "Серія",
+        "FLB"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 86,
+    "sku": "FLC-086",
+    "slug": "felicity-solar-flh48100ug1",
+    "name": "Акумулятор Felicity Solar FLH48100UG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flh48100ug1/01.png",
+    "url": "product/felicity-solar-flh48100ug1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLH48100UG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLH"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 87,
+    "sku": "FLC-087",
+    "slug": "felicity-solar-flh48100ug2",
+    "name": "Акумулятор Felicity Solar FLH48100UG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flh48100ug2/01.png",
+    "url": "product/felicity-solar-flh48100ug2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLH48100UG2"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLH"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 88,
+    "sku": "FLC-088",
+    "slug": "felicity-solar-flh96050sg1",
+    "name": "Акумулятор Felicity Solar FLH96050SG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flh96050sg1/01.png",
+    "url": "product/felicity-solar-flh96050sg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLH96050SG1"
+      ],
+      [
+        "Номінальна напруга",
+        "96 В"
+      ],
+      [
+        "Ємність",
+        "50 А·год"
+      ],
+      [
+        "Серія",
+        "FLH"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 89,
+    "sku": "FLC-089",
+    "slug": "felicity-solar-flh96050sg2",
+    "name": "Акумулятор Felicity Solar FLH96050SG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flh96050sg2/01.png",
+    "url": "product/felicity-solar-flh96050sg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLH96050SG2"
+      ],
+      [
+        "Номінальна напруга",
+        "96 В"
+      ],
+      [
+        "Ємність",
+        "50 А·год"
+      ],
+      [
+        "Серія",
+        "FLH"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 90,
+    "sku": "FLC-090",
+    "slug": "felicity-solar-flh96050sg2-h",
+    "name": "Акумулятор Felicity Solar FLH96050SG2-H",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-flh96050sg2-h/01.png",
+    "url": "product/felicity-solar-flh96050sg2-h/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLH96050SG2-H"
+      ],
+      [
+        "Номінальна напруга",
+        "96 В"
+      ],
+      [
+        "Ємність",
+        "50 А·год"
+      ],
+      [
+        "Серія",
+        "FLH"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 91,
+    "sku": "FLC-091",
+    "slug": "felicity-solar-fls48050sg1",
+    "name": "Акумулятор Felicity Solar FLS48050SG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fls48050sg1/01.png",
+    "url": "product/felicity-solar-fls48050sg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLS48050SG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "50 А·год"
+      ],
+      [
+        "Серія",
+        "FLS"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 92,
+    "sku": "FLC-092",
+    "slug": "felicity-solar-fls48100sg1",
+    "name": "Акумулятор Felicity Solar FLS48100SG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fls48100sg1/01.png",
+    "url": "product/felicity-solar-fls48100sg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLS48100SG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLS"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 93,
+    "sku": "FLC-093",
+    "slug": "felicity-solar-fls48100sg2",
+    "name": "Акумулятор Felicity Solar FLS48100SG2",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-fls48100sg2/01.png",
+    "url": "product/felicity-solar-fls48100sg2/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "FLS48100SG2"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "FLS"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 94,
+    "sku": "FLC-094",
+    "slug": "felicity-solar-lpba12100wg1",
+    "name": "Акумулятор Felicity Solar LPBA12100WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba12100wg1/01.png",
+    "url": "product/felicity-solar-lpba12100wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA12100WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 95,
+    "sku": "FLC-095",
+    "slug": "felicity-solar-lpba12200wg1",
+    "name": "Акумулятор Felicity Solar LPBA12200WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba12200wg1/01.png",
+    "url": "product/felicity-solar-lpba12200wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA12200WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "12 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 96,
+    "sku": "FLC-096",
+    "slug": "felicity-solar-lpba24100wg1",
+    "name": "Акумулятор Felicity Solar LPBA24100WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba24100wg1/01.png",
+    "url": "product/felicity-solar-lpba24100wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA24100WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 97,
+    "sku": "FLC-097",
+    "slug": "felicity-solar-lpba24200wg1",
+    "name": "Акумулятор Felicity Solar LPBA24200WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba24200wg1/01.png",
+    "url": "product/felicity-solar-lpba24200wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA24200WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "24 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 98,
+    "sku": "FLC-098",
+    "slug": "felicity-solar-lpba48100-ol",
+    "name": "Акумулятор Felicity Solar LPBA48100-OL",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba48100-ol/01.png",
+    "url": "product/felicity-solar-lpba48100-ol/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA48100-OL"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 99,
+    "sku": "FLC-099",
+    "slug": "felicity-solar-lpba48100wg1",
+    "name": "Акумулятор Felicity Solar LPBA48100WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba48100wg1/01.png",
+    "url": "product/felicity-solar-lpba48100wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA48100WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "100 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 100,
+    "sku": "FLC-100",
+    "slug": "felicity-solar-lpba48200wg1",
+    "name": "Акумулятор Felicity Solar LPBA48200WG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba48200wg1/01.png",
+    "url": "product/felicity-solar-lpba48200wg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA48200WG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "200 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 101,
+    "sku": "FLC-101",
+    "slug": "felicity-solar-lpba48300tg1",
+    "name": "Акумулятор Felicity Solar LPBA48300TG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba48300tg1/01.png",
+    "url": "product/felicity-solar-lpba48300tg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA48300TG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "300 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
+      ]
+    ]
+  },
+  {
+    "id": 102,
+    "sku": "FLC-102",
+    "slug": "felicity-solar-lpba48350tg1",
+    "name": "Акумулятор Felicity Solar LPBA48350TG1",
+    "category": "akumulyatory",
+    "categoryName": "Акумулятори LiFePO4",
+    "price": 0,
+    "oldPrice": null,
+    "discount": null,
+    "inStock": true,
+    "image": "img/felicity-solar-lpba48350tg1/01.png",
+    "url": "product/felicity-solar-lpba48350tg1/",
+    "specs": [
+      [
+        "Тип",
+        "Літій-залізо-фосфатний (LiFePO4)"
+      ],
+      [
+        "Бренд",
+        "Felicity Solar"
+      ],
+      [
+        "Модель",
+        "LPBA48350TG1"
+      ],
+      [
+        "Номінальна напруга",
+        "48 В"
+      ],
+      [
+        "Ємність",
+        "350 А·год"
+      ],
+      [
+        "Серія",
+        "LPBA"
+      ],
+      [
+        "Ресурс",
+        "до 8000 циклів"
+      ],
+      [
+        "Гарантія",
+        "60 місяців"
       ]
     ]
   }
