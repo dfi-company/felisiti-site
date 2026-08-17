@@ -72,5 +72,38 @@
         });
       }
     });
+
+    // Product gallery: click/keyboard through thumbnails
+    var gallery = document.querySelector("[data-gallery]");
+    if (gallery) {
+      var mainImg = gallery.querySelector("[data-gallery-main]");
+      var thumbs = Array.prototype.slice.call(gallery.querySelectorAll("[data-gallery-thumb]"));
+      var counter = gallery.querySelector("[data-gallery-counter]");
+      var current = 0;
+
+      function show(index) {
+        if (thumbs.length === 0) return;
+        current = (index + thumbs.length) % thumbs.length;
+        var thumb = thumbs[current];
+        mainImg.src = thumb.getAttribute("data-src");
+        thumbs.forEach(function (t) { t.classList.remove("active"); });
+        thumb.classList.add("active");
+        if (counter) counter.textContent = (current + 1) + " / " + thumbs.length;
+      }
+
+      thumbs.forEach(function (thumb, i) {
+        thumb.addEventListener("click", function () { show(i); });
+      });
+
+      var prevBtn = gallery.querySelector("[data-gallery-prev]");
+      var nextBtn = gallery.querySelector("[data-gallery-next]");
+      if (prevBtn) prevBtn.addEventListener("click", function () { show(current - 1); });
+      if (nextBtn) nextBtn.addEventListener("click", function () { show(current + 1); });
+
+      gallery.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowLeft") show(current - 1);
+        if (e.key === "ArrowRight") show(current + 1);
+      });
+    }
   });
 })();

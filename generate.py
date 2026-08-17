@@ -883,22 +883,31 @@ def gen_product_pages():
 
         extra_images = p["images"][1:]
         thumbs_html = ""
+        nav_html = ""
+        counter_html = ""
         if extra_images:
             thumbs = "\n".join(
-                '<a class="gallery-thumb" href="../../%s" target="_blank" rel="noopener">'
-                '<img src="../../%s" loading="lazy" alt="%s — фото %d">'
-                '</a>' % (img, img, p["name"], i)
+                '<button type="button" class="gallery-thumb%(active)s" data-gallery-thumb data-src="../../%(img)s" aria-label="Фото %(i)d">'
+                '<img src="../../%(img)s" loading="lazy" alt="%(name)s — фото %(i)d">'
+                '</button>' % {"active": " active" if i == 1 else "", "img": img, "name": p["name"], "i": i}
                 for i, img in enumerate(p["images"], start=1)
             )
-            thumbs_html = '<div class="gallery-thumbs">%s</div>' % thumbs
+            thumbs_html = '<div class="gallery-thumbs" data-gallery-thumbs>%s</div>' % thumbs
+            nav_html = (
+                '<button type="button" class="gallery-nav gallery-nav-prev" data-gallery-prev aria-label="Попереднє фото">‹</button>'
+                '<button type="button" class="gallery-nav gallery-nav-next" data-gallery-next aria-label="Наступне фото">›</button>'
+            )
+            counter_html = '<span class="gallery-counter" data-gallery-counter>1 / %d</span>' % len(p["images"])
 
         body = """
 %(breadcrumbs)s
 <div class="container">
   <div class="product-page">
-    <div class="gallery-col">
+    <div class="gallery-col" data-gallery>
       <div class="gallery-main">
-        <img src="%(image)s" width="600" height="600" alt="%(name)s — фото товару Felicity">
+        <img src="%(image)s" width="600" height="600" alt="%(name)s — фото товару Felicity" data-gallery-main>
+        %(nav)s
+        %(counter)s
       </div>
       %(thumbs)s
     </div>
@@ -916,7 +925,7 @@ def gen_product_pages():
 </div>""" % {
             "breadcrumbs": render_breadcrumbs(breadcrumbs, 2),
             "image": "../../" + p["image"],
-            "thumbs": thumbs_html,
+            "thumbs": thumbs_html, "nav": nav_html, "counter": counter_html,
             "name": p["name"], "cat_slug": p["category"], "cat_name": cat["name"],
             "stock": stock_html, "price_html": price_html, "cta": cta,
             "desc": p["desc"], "specs": specs_rows, "sku": p["sku"],
