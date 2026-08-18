@@ -1,4 +1,4 @@
-/* Felicity — cart logic (localStorage). Requires products.js loaded first. */
+/* Felicity - cart logic (localStorage). Requires products.js loaded first. */
 (function () {
   "use strict";
 
@@ -221,6 +221,21 @@
     if (checkoutForm) {
       checkoutForm.addEventListener("submit", function (e) {
         e.preventDefault();
+        var details = getCartDetails();
+        var itemsText = details.map(function (d) {
+          return d.product.name + " x" + d.qty;
+        }).join("; ");
+        var total = details.reduce(function (sum, d) { return sum + d.product.price * d.qty; }, 0);
+        if (window.FelicityLeads) {
+          window.FelicityLeads.send({
+            form: "checkout",
+            name: document.getElementById("ck-name").value,
+            phone: document.getElementById("ck-phone").value,
+            address: document.getElementById("ck-address").value,
+            items: itemsText,
+            total: total,
+          });
+        }
         localStorage.removeItem(CART_KEY);
         updateCartCount();
         var root = document.querySelector("[data-cart-root]");

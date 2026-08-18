@@ -1,4 +1,4 @@
-/* Felicity — header interactions: burger menu, mobile search, search suggestions. */
+/* Felicity - header interactions: burger menu, mobile search, search suggestions. */
 (function () {
   "use strict";
 
@@ -7,6 +7,19 @@
     var prefix = depth === "2" ? "../../" : depth === "1" ? "../" : "";
     return prefix + path;
   }
+
+  // Contact / checkout forms: send to the configured endpoint (Google Apps Script)
+  function sendLead(payload) {
+    var endpoint = window.FELICITY_FORM_ENDPOINT;
+    if (!endpoint) return;
+    fetch(endpoint, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify(payload),
+    }).catch(function () {});
+  }
+  window.FelicityLeads = { send: sendLead };
 
   document.addEventListener("DOMContentLoaded", function () {
     var burger = document.querySelector("[data-burger]");
@@ -103,6 +116,36 @@
       gallery.addEventListener("keydown", function (e) {
         if (e.key === "ArrowLeft") show(current - 1);
         if (e.key === "ArrowRight") show(current + 1);
+      });
+    }
+
+    // Homepage hero: auto-rotate banner photos
+    var heroBanner = document.querySelector("[data-hero-banner]");
+    if (heroBanner) {
+      var slides = Array.prototype.slice.call(heroBanner.querySelectorAll(".hero-banner-img"));
+      if (slides.length > 1) {
+        var slide = 0;
+        setInterval(function () {
+          slides[slide].classList.remove("active");
+          slide = (slide + 1) % slides.length;
+          slides[slide].classList.add("active");
+        }, 5000);
+      }
+    }
+
+    var contactForm = document.querySelector("[data-contact-form]");
+    if (contactForm) {
+      contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        sendLead({
+          form: "contact",
+          name: contactForm.querySelector("[name=name]").value,
+          phone: contactForm.querySelector("[name=phone]").value,
+          message: contactForm.querySelector("[name=message]").value,
+        });
+        contactForm.reset();
+        var note = contactForm.querySelector("[data-form-success]");
+        if (note) note.style.display = "block";
       });
     }
   });

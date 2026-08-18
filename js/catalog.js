@@ -1,4 +1,4 @@
-/* Felicity — progressive-enhancement filters/sort for category pages.
+/* Felicity - progressive-enhancement filters/sort for category pages.
    Product cards are already server-rendered in the HTML for SEO; this script
    only shows/hides/reorders existing DOM nodes, it does not generate content. */
 (function () {

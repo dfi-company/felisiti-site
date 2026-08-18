@@ -18,7 +18,7 @@ import shutil
 import textwrap
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-BASE_URL = "https://felicity.ua"  # placeholder domain — replace before launch
+BASE_URL = "https://felicity.ua"  # placeholder domain - replace before launch
 
 # ---------------------------------------------------------------------------
 # Data
@@ -27,18 +27,18 @@ BASE_URL = "https://felicity.ua"  # placeholder domain — replace before launch
 CATEGORIES = {
     "invertory": {
         "name": "Гібридні інвертори Felicity Solar",
-        "meta_desc": "Гібридні інвертори Felicity Solar для сонячних електростанцій: від 3 до 125 кВт, однофазні та трифазні, офіційна гарантія, доставка по Україні.",
-        "intro": "Гібридні інвертори Felicity Solar перетворюють постійний струм від панелей та акумуляторів у змінний для живлення побутових приладів. У каталозі — моделі потужністю від 3 до 125 кВт, однофазні та трифазні, для приватних будинків і комерційних об'єктів.",
+        "meta_desc": "Гібридні інвертори Felicity Solar для сонячних електростанцій: від 3 до 125 кВт, однофазні та трифазні, доставка по Україні.",
+        "intro": "Гібридні інвертори Felicity Solar перетворюють постійний струм від панелей та акумуляторів у змінний для живлення побутових приладів. У каталозі - моделі потужністю від 3 до 125 кВт, однофазні та трифазні, для приватних будинків і комерційних об'єктів.",
     },
     "akumulyatory": {
         "name": "Акумулятори LiFePO4",
-        "meta_desc": "Літій-залізо-фосфатні акумулятори Felicity LiFePO4 для сонячних систем: 12V-51.2V, ресурс до 8000 циклів, гарантія до 5 років.",
+        "meta_desc": "Літій-залізо-фосфатні акумулятори Felicity LiFePO4 для сонячних систем: 12V-51.2V, ресурс до 8000 циклів.",
         "intro": "Акумулятори Felicity на основі хімії LiFePO4 забезпечують безпечне накопичення енергії для домашніх сонячних електростанцій. Витримують тисячі циклів заряду-розряду та зберігають ємність протягом десятиліття експлуатації.",
     },
     "zaryadni-stantsii": {
         "name": "Зарядні станції",
         "meta_desc": "Портативні зарядні станції Felicity (power station) 500-2000 Вт для дому, дачі та подорожей. Швидка зарядка, тихий тепловідвід.",
-        "intro": "Портативні зарядні станції Felicity — компактне джерело автономного живлення для дому, офісу чи виїзду на природу. Живлять техніку через розетку 220V, USB та DC-виходи навіть під час відключення електроенергії.",
+        "intro": "Портативні зарядні станції Felicity - компактне джерело автономного живлення для дому, офісу чи виїзду на природу. Живлять техніку через розетку 220V, USB та DC-виходи навіть під час відключення електроенергії.",
     },
     "avr": {
         "name": "Автоматичні перемикачі АВР",
@@ -48,7 +48,7 @@ CATEGORIES = {
     "powerbank": {
         "name": "PowerBank",
         "meta_desc": "Портативні павербанки Felicity 20000-30000 мАг для заряджання смартфонів, планшетів та іншої техніки в дорозі.",
-        "intro": "Павербанки Felicity — компактні акумулятори для щоденного заряджання гаджетів у дорозі, під час подорожей чи відключень світла.",
+        "intro": "Павербанки Felicity - компактні акумулятори для щоденного заряджання гаджетів у дорозі, під час подорожей чи відключень світла.",
     },
     "aksesuary": {
         "name": "Аксесуари",
@@ -130,7 +130,6 @@ for _i, (_code, _power, _voltage, _phase, _note) in enumerate(INVERTER_MODELS, s
             ("Тип", "Гібридний"), ("Бренд", "Felicity Solar"), ("Модель", _code),
             ("Номінальна потужність", _power), ("Напруга АКБ", _voltage),
             ("Вихідна напруга AC", _ac_out), ("Фаза", _phase_label),
-            ("Гарантія", "24 місяці"),
         ],
     ))
 
@@ -221,7 +220,7 @@ for _i, (_folder_code, _code, _volt, _cap, _series, _note) in enumerate(BATTERY_
         specs=[
             ("Тип", "Літій-залізо-фосфатний (LiFePO4)"), ("Бренд", "Felicity Solar"), ("Модель", _code),
             ("Номінальна напруга", _volt), ("Ємність", _cap), ("Серія", _series),
-            ("Ресурс", "до 8000 циклів"), ("Гарантія", "60 місяців"),
+            ("Ресурс", "до 8000 циклів"),
         ],
     ))
 
@@ -237,6 +236,15 @@ for _i, (_folder_code, _code, _volt, _cap, _series, _note) in enumerate(BATTERY_
 # works without the sheet.
 PRICE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2gl9sSPX4koEtBUKTvYjQ0jfitbai1FLeDIWNYQX4HLrDeLGUoBm89UMXS0DpwlS8PzciVuok_NzX/pub?gid=1073870778&single=true&output=csv"
 
+# ---------------------------------------------------------------------------
+# Contact/checkout form submissions (Google Apps Script Web App)
+# ---------------------------------------------------------------------------
+# Create a Google Sheet -> Extensions -> Apps Script -> paste the doPost()
+# script that appends form submissions to a "Leads" tab -> Deploy -> Web app
+# (Execute as: me, Who has access: Anyone) -> paste the /exec URL below.
+# If empty, forms show a local "sent" confirmation but nothing is recorded.
+FORM_ENDPOINT_URL = ""
+
 
 def load_price_sheet(url):
     if not url:
@@ -247,7 +255,7 @@ def load_price_sheet(url):
         with urllib.request.urlopen(url, timeout=10) as resp:
             text = resp.read().decode("utf-8-sig")
     except Exception as e:
-        print("Warning: could not fetch price sheet (%s) — keeping existing prices." % e)
+        print("Warning: could not fetch price sheet (%s) - keeping existing prices." % e)
         return {}
     rows = {}
     for row in csv.DictReader(text.splitlines()):
@@ -308,7 +316,6 @@ STATIC_PAGES = [
     ("about", "Про нас"),
     ("delivery", "Доставка"),
     ("payment", "Оплата"),
-    ("warranty", "Гарантія та повернення"),
     ("contact", "Контакти"),
 ]
 
@@ -368,7 +375,7 @@ def render_header(depth, active_path=None):
     header.append('<a href="skip-content-anchor" class="skip-link">Перейти до основного контенту</a>' .replace("skip-content-anchor", "#main-content"))
     header.append('<header class="site-header">')
     header.append('<div class="container header-top">')
-    header.append('<a href="%s" class="logo" aria-label="Felicity — головна сторінка"><img src="%simg/logo.png" alt="Felicity Solar" class="logo-img"></a>' % (home, prefix))
+    header.append('<a href="%s" class="logo" aria-label="Felicity - головна сторінка"><img src="%simg/logo.png" alt="Felicity Solar" class="logo-img"></a>' % (home, prefix))
     header.append('<div class="header-search" data-search-wrap>')
     header.append('<form role="search" action="%scatalog/index.html" method="get">' % prefix)
     header.append('<label class="visually-hidden" for="search-desktop">Пошук товарів</label>')
@@ -412,8 +419,7 @@ def render_footer(depth):
   <div class="container footer-grid">
     <div class="footer-col">
       <a class="footer-phone" href="tel:+380000000000">+38 (0__) ___ __ __</a>
-      <p>Felicity — офіційний дистриб'ютор сонячного обладнання в Україні. Пн-Пт 9:00-18:00.</p>
-      <div class="payment-icons"><span>VISA</span><span>Mastercard</span></div>
+      <p>Felicity - обладнання Felicity Solar в Україні. Пн-Пт 9:00-18:00.</p>
     </div>
     <div class="footer-col">
       <h3>Каталог</h3>
@@ -425,7 +431,7 @@ def render_footer(depth):
     </div>
     <div class="footer-col">
       <h3>Про Felicity</h3>
-      <p>Ми постачаємо гібридні інвертори Felicity Solar з офіційною гарантією та підтримкою по всій Україні.</p>
+      <p>Ми постачаємо обладнання Felicity Solar та надаємо підтримку по всій Україні.</p>
     </div>
   </div>
   <div class="container footer-bottom">
@@ -447,7 +453,7 @@ def organization_ld():
         "name": "Felicity",
         "url": BASE_URL + "/",
         "logo": abs_url("img/logo.png"),
-        "description": "Felicity — офіційний дистриб'ютор гібридних інверторів Felicity Solar в Україні.",
+        "description": "Felicity - обладнання Felicity Solar в Україні.",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+38-0__-___-__-__",
@@ -598,7 +604,7 @@ def product_card_html(p, depth, lazy=True):
     return """<article class="product-card" data-product-card data-price="%(price)s" data-instock="%(instock)s">
   %(badge)s
   <a class="product-media" href="%(prefix)s%(url)s" tabindex="-1" aria-hidden="true">
-    <img src="%(prefix)s%(image)s" width="600" height="600" alt="%(name)s — %(cat)s Felicity"%(loading)s>
+    <img src="%(prefix)s%(image)s" width="600" height="600" alt="%(name)s - %(cat)s Felicity"%(loading)s>
   </a>
   <p class="product-cat"><a href="%(prefix)scategory/%(cat_slug)s/">%(cat)s</a></p>
   <h3 class="product-title"><a href="%(prefix)s%(url)s">%(name)s</a></h3>
@@ -651,7 +657,7 @@ def generate_placeholder_images():
                 shutil.copyfile(os.path.join(src_dir, fn), os.path.join(dst_dir, fn))
             real_photo_count += len(p["images"])
             products_with_photos += 1
-    write_file("img/og-default.svg", svg_placeholder("Felicity — сонячна енергетика", "#f7f9fc", "#ff8a3d"))
+    write_file("img/og-default.svg", svg_placeholder("Felicity - сонячна енергетика", "#f7f9fc", "#ff8a3d"))
     write_file("img/favicon.svg", '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#ed6f20"/><path d="M17.5 6 9 18h6l-1.5 8L23 14h-6l0.5-8z" fill="#06210f"/></svg>')
     print("Generated %d real product photos across %d products + %d placeholder images + favicon/og-default." % (
         real_photo_count, products_with_photos, len(PRODUCTS) - products_with_photos))
@@ -672,8 +678,9 @@ def gen_products_js():
             "oldPrice": p["old_price"], "discount": p["discount"], "inStock": p["in_stock"],
             "image": p["image"], "url": p["url"], "specs": p["specs"],
         })
-    content = "/* Felicity — product catalog data, generated from generate.py. Do not hand-edit. */\n"
+    content = "/* Felicity - product catalog data, generated from generate.py. Do not hand-edit. */\n"
     content += "window.FELICITY_PRODUCTS = " + json.dumps(slim, ensure_ascii=False, indent=2) + ";\n"
+    content += "window.FELICITY_FORM_ENDPOINT = " + json.dumps(FORM_ENDPOINT_URL) + ";\n"
     write_file("js/products.js", content)
     print("Wrote js/products.js")
 
@@ -682,7 +689,26 @@ def gen_products_js():
 # Homepage
 # ---------------------------------------------------------------------------
 
+HERO_BANNERS = [
+    "img/hero-banner-1.jpg",
+    "img/hero-banner-2.jpg",
+]
+
+
 def gen_index():
+    _cat_names = [CATEGORIES[s]["name"] for s in CATEGORY_ORDER]
+    if len(_cat_names) > 1:
+        cat_list_str = ", ".join(_cat_names[:-1]) + " та " + _cat_names[-1]
+    else:
+        cat_list_str = _cat_names[0] if _cat_names else "обладнання"
+
+    banner_imgs = "\n      ".join(
+        '<img class="hero-banner-img%s" src="%s" alt="" loading="%s">' % (
+            " active" if i == 0 else "", src, "eager" if i == 0 else "lazy",
+        )
+        for i, src in enumerate(HERO_BANNERS)
+    )
+
     sections = []
     for slug in CATEGORY_ORDER:
         cat = CATEGORIES[slug]
@@ -700,11 +726,15 @@ def gen_index():
 </section>""" % {"slug": slug, "name": cat["name"], "cards": cards})
 
     body = """
-<section class="hero">
+<section class="hero" data-hero-banner>
+  <div class="hero-banner-imgs">
+      %(banner_imgs)s
+  </div>
+  <div class="hero-banner-overlay"></div>
   <div class="container hero-inner">
     <span class="hero-eyebrow">Сонячна енергетика Felicity</span>
-    <h1>Гібридні інвертори Felicity Solar для автономного живлення дому</h1>
-    <p>Офіційний дистриб'ютор обладнання Felicity Solar в Україні. Гібридні інвертори потужністю від 3 до 125 кВт, однофазні та трифазні, з гарантією та доставкою по всій країні.</p>
+    <h1>Обладнання Felicity Solar для автономного та резервного живлення дому</h1>
+    <p>У каталозі: %(cat_list)s. Доставка по всій Україні.</p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="catalog/index.html">Перейти в каталог</a>
       <a class="btn btn-outline" href="about.html">Про компанію</a>
@@ -716,21 +746,20 @@ def gen_index():
   <div class="container">
     <div class="about-block">
       <h2 id="about-heading">Про Felicity</h2>
-      <p>Felicity — офіційний дистриб'ютор гібридних інверторів Felicity Solar в Україні. Ми постачаємо обладнання для автономних та резервних систем живлення приватних будинків, офісів і невеликих підприємств, надаємо консультації з підбору комплекту та офіційну гарантію виробника.</p>
+      <p>Felicity постачає обладнання Felicity Solar в Україні. Ми постачаємо обладнання для автономних та резервних систем живлення приватних будинків, офісів і невеликих підприємств, надаємо консультації з підбору комплекту обладнання.</p>
       <div class="stat-row">
-        <div class="stat"><strong>%(product_count)d+</strong><span>моделей інверторів</span></div>
-        <div class="stat"><strong>24</strong><span>місяці гарантії</span></div>
+        <div class="stat"><strong>%(product_count)d+</strong><span>моделей обладнання</span></div>
         <div class="stat"><strong>24</strong><span>області доставки</span></div>
         <div class="stat"><strong>100%%</strong><span>оригінальне обладнання</span></div>
       </div>
     </div>
   </div>
 </section>
-""" % {"sections": "".join(sections), "product_count": len(PRODUCTS)}
+""" % {"sections": "".join(sections), "product_count": len(PRODUCTS), "cat_list": cat_list_str, "banner_imgs": banner_imgs}
 
     html = page(
-        title="Felicity — гібридні інвертори Felicity Solar | Офіційний дистриб'ютор в Україні",
-        meta_desc="Felicity — офіційний дистриб'ютор гібридних інверторів Felicity Solar в Україні. Гарантія, доставка по всій країні.",
+        title="Felicity - обладнання Felicity Solar в Україні | Інвертори та акумулятори",
+        meta_desc="Felicity - обладнання Felicity Solar в Україні: гібридні інвертори та акумулятори LiFePO4. Доставка по всій країні.",
         canonical_path="/",
         depth=0,
         body_html=body,
@@ -808,7 +837,7 @@ def gen_category_pages():
         })
 
         html = page(
-            title="%s — купити в Україні | Felicity" % cat["name"],
+            title="%s - купити в Україні | Felicity" % cat["name"],
             meta_desc=cat["meta_desc"],
             canonical_path="/category/%s/" % slug,
             depth=2,
@@ -841,8 +870,8 @@ def gen_catalog_all():
         "filters": filters_html(), "toolbar": toolbar_html(), "cards": cards,
     }
     html = page(
-        title="Всі товари — каталог Felicity | Гібридні інвертори Felicity Solar",
-        meta_desc="Каталог гібридних інверторів Felicity Solar: моделі потужністю від 3 до 125 кВт, однофазні та трифазні.",
+        title="Всі товари - каталог Felicity Solar",
+        meta_desc="Каталог обладнання Felicity Solar: гібридні інвертори та акумулятори LiFePO4.",
         canonical_path="/catalog/",
         depth=1,
         body_html=body,
@@ -895,7 +924,7 @@ def gen_product_pages():
         if extra_images:
             thumbs = "\n".join(
                 '<button type="button" class="gallery-thumb%(active)s" data-gallery-thumb data-src="../../%(img)s" aria-label="Фото %(i)d">'
-                '<img src="../../%(img)s" loading="lazy" alt="%(name)s — фото %(i)d">'
+                '<img src="../../%(img)s" loading="lazy" alt="%(name)s - фото %(i)d">'
                 '</button>' % {"active": " active" if i == 1 else "", "img": img, "name": p["name"], "i": i}
                 for i, img in enumerate(p["images"], start=1)
             )
@@ -912,7 +941,7 @@ def gen_product_pages():
   <div class="product-page">
     <div class="gallery-col" data-gallery>
       <div class="gallery-main">
-        <img src="%(image)s" width="600" height="600" alt="%(name)s — фото товару Felicity" data-gallery-main>
+        <img src="%(image)s" width="600" height="600" alt="%(name)s - фото товару Felicity" data-gallery-main>
         %(nav)s
         %(counter)s
       </div>
@@ -957,7 +986,7 @@ def gen_product_pages():
         })
 
         html = page(
-            title="%s купити в Україні — ціна %s | Felicity" % (p["name"], fmt_price(p["price"])),
+            title="%s купити в Україні - ціна %s | Felicity" % (p["name"], fmt_price(p["price"])),
             meta_desc="%s Ціна %s. %s" % (p["name"], fmt_price(p["price"]), p["desc"][:120]),
             canonical_path="/" + p["url"],
             depth=2,
@@ -979,25 +1008,25 @@ def gen_static_pages():
     pages = {}
 
     pages["about"] = dict(
-        title="Про нас — Felicity | Офіційний дистриб'ютор сонячної енергетики в Україні",
-        meta_desc="Felicity — офіційний дистриб'ютор гібридних інверторів Felicity Solar в Україні. Дізнайтеся більше про компанію.",
+        title="Про нас - Felicity | Сонячна енергетика в Україні",
+        meta_desc="Felicity - обладнання Felicity Solar в Україні. Дізнайтеся більше про компанію.",
         h1="Про компанію Felicity",
         body="""
 <div class="content-page">
-  <p>Felicity — офіційний дистриб'ютор сонячного обладнання Felicity Solar в Україні. Ми постачаємо гібридні інвертори для приватних будинків, дач та невеликого бізнесу.</p>
+  <p>Felicity постачає обладнання Felicity Solar в Україні. Ми постачаємо гібридні інвертори та акумулятори для приватних будинків, дач та невеликого бізнесу.</p>
   <h2>Чому обирають нас</h2>
   <div class="info-cards">
-    <div class="info-card"><h3>Оригінальне обладнання</h3><p>Прямі поставки від виробника, офіційна гарантія на всю продукцію.</p></div>
+    <div class="info-card"><h3>Оригінальне обладнання</h3><p>Прямі поставки від виробника.</p></div>
     <div class="info-card"><h3>Консультація з підбору</h3><p>Допомагаємо розрахувати потужність та ємність системи під ваші потреби.</p></div>
     <div class="info-card"><h3>Доставка по Україні</h3><p>Відправляємо замовлення в будь-яке місто через основні служби доставки.</p></div>
   </div>
   <h2>Наша місія</h2>
-  <p>Робити автономну та відновлювану енергетику доступною для кожного українського домогосподарства — від невеликого резервного живлення до повноцінної сонячної електростанції.</p>
+  <p>Робити автономну та відновлювану енергетику доступною для кожного українського домогосподарства - від невеликого резервного живлення до повноцінної сонячної електростанції.</p>
 </div>""",
     )
 
     pages["delivery"] = dict(
-        title="Доставка — Felicity | Умови та терміни доставки",
+        title="Доставка - Felicity | Умови та терміни доставки",
         meta_desc="Умови доставки обладнання Felicity по Україні: Нова пошта, Укрпошта, кур'єрська доставка. Терміни та вартість.",
         h1="Доставка",
         body="""
@@ -1005,10 +1034,9 @@ def gen_static_pages():
   <p>Ми відправляємо замовлення по всій Україні через провідні служби доставки протягом 1-2 робочих днів після підтвердження замовлення.</p>
   <h2>Способи доставки</h2>
   <ul>
-    <li>Відділення «Нової пошти» — 1-3 дні залежно від регіону</li>
+    <li>Відділення «Нової пошти» - 1-3 дні залежно від регіону</li>
     <li>Кур'єром «Нової пошти» до дверей</li>
-    <li>Укрпоштою — для віддалених населених пунктів</li>
-    <li>Самовивіз зі складу (за попередньою домовленістю)</li>
+    <li>Укрпоштою - для віддалених населених пунктів</li>
   </ul>
   <h2>Вартість</h2>
   <p>Вартість доставки розраховується транспортною компанією за тарифами перевізника та оплачується отримувачем при отриманні, якщо інше не погоджено окремо.</p>
@@ -1016,43 +1044,23 @@ def gen_static_pages():
     )
 
     pages["payment"] = dict(
-        title="Оплата — Felicity | Способи оплати замовлення",
-        meta_desc="Способи оплати товарів Felicity: банківською картою онлайн, безготівковий розрахунок для юридичних осіб, оплата при отриманні.",
+        title="Оплата - Felicity | Способи оплати замовлення",
+        meta_desc="Способи оплати товарів Felicity: безготівковий розрахунок для юридичних осіб, оплата при отриманні.",
         h1="Оплата",
         body="""
 <div class="content-page">
   <p>Ми пропонуємо кілька зручних способів оплати замовлень.</p>
   <h2>Доступні способи оплати</h2>
   <ul>
-    <li>Оплата карткою Visa/Mastercard онлайн</li>
     <li>Безготівковий розрахунок для юридичних осіб (з ПДВ)</li>
     <li>Накладений платіж при отриманні (часткова передоплата)</li>
-    <li>Розстрочка через партнерські банки — уточнюйте у менеджера</li>
   </ul>
   <p>Усі платежі захищені та обробляються відповідно до стандартів безпеки платіжних систем.</p>
 </div>""",
     )
 
-    pages["warranty"] = dict(
-        title="Гарантія та повернення — Felicity | Умови гарантійного обслуговування",
-        meta_desc="Гарантійні умови на обладнання Felicity: 12-60 місяців залежно від категорії товару. Умови повернення та обміну.",
-        h1="Гарантія та повернення",
-        body="""
-<div class="content-page">
-  <p>На все обладнання Felicity надається офіційна гарантія виробника терміном від 12 до 60 місяців залежно від категорії товару (вказана на сторінці кожного товару).</p>
-  <h2>Гарантійне обслуговування</h2>
-  <ul>
-    <li>Гарантія діє за умови дотримання правил експлуатації, вказаних в інструкції</li>
-    <li>Гарантійний ремонт або заміна здійснюється безкоштовно протягом гарантійного терміну</li>
-    <li>Для звернення до сервісного центру необхідно зберігати документ, що підтверджує покупку</li>
-  </ul>
-  <h2>Повернення товару</h2>
-  <p>Ви можете повернути товар належної якості протягом 14 днів з моменту отримання відповідно до законодавства про захист прав споживачів, якщо він не був у використанні та збережено товарний вигляд і комплектацію.</p>
-</div>""",
-    )
-
     pages["contact"] = dict(
-        title="Контакти — Felicity | Зв'яжіться з нами",
+        title="Контакти - Felicity | Зв'яжіться з нами",
         meta_desc="Контактна інформація Felicity: телефон, email, форма зворотного зв'язку. Ми відповідаємо на запити з понеділка по п'ятницю.",
         h1="Контакти",
         body="""
@@ -1064,7 +1072,7 @@ def gen_static_pages():
     <div class="info-card"><h3>Офіс</h3><p>Україна<br>Доставка по всій країні</p></div>
   </div>
   <h2>Форма зворотного зв'язку</h2>
-  <form class="form-grid" data-contact-form onsubmit="event.preventDefault(); this.reset(); this.querySelector('[data-form-success]').style.display='block';">
+  <form class="form-grid" data-contact-form>
     <div class="form-field"><label for="c-name">Ім'я</label><input type="text" id="c-name" name="name" required></div>
     <div class="form-field"><label for="c-phone">Телефон</label><input type="tel" id="c-phone" name="phone" required></div>
     <div class="form-field"><label for="c-message">Повідомлення</label><textarea id="c-message" name="message" required></textarea></div>
@@ -1102,12 +1110,12 @@ def gen_cart_page():
       <div class="form-field"><label for="ck-phone">Телефон</label><input type="tel" id="ck-phone" required></div>
       <div class="form-field"><label for="ck-address">Адреса доставки</label><input type="text" id="ck-address" required></div>
       <button type="submit" class="btn btn-primary btn-block">Оформити замовлення</button>
-      <p class="form-note">Це демонстраційна форма — реальна оплата не здійснюється.</p>
+      <p class="form-note">Це демонстраційна форма - реальна оплата не здійснюється.</p>
     </form>
   </aside>
 </div>""" % {"breadcrumbs": render_breadcrumbs(breadcrumbs, 0)}
     html = page(
-        title="Кошик — Felicity",
+        title="Кошик - Felicity",
         meta_desc="Кошик покупок Felicity: перегляньте обрані товари, змініть кількість та оформіть замовлення.",
         canonical_path="/cart.html",
         depth=0,
@@ -1156,7 +1164,7 @@ def gen_price_sheet_template():
             "так" if p["in_stock"] else "ні",
         ])
     write_file("price-sheet-template.csv", buf.getvalue())
-    print("Wrote price-sheet-template.csv (%d rows) — import this into Google Sheets." % len(PRODUCTS))
+    print("Wrote price-sheet-template.csv (%d rows) - import this into Google Sheets." % len(PRODUCTS))
 
 
 # ---------------------------------------------------------------------------
