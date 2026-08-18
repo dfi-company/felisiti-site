@@ -243,7 +243,7 @@ PRICE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2gl9sSP
 # script that appends form submissions to a "Leads" tab -> Deploy -> Web app
 # (Execute as: me, Who has access: Anyone) -> paste the /exec URL below.
 # If empty, forms show a local "sent" confirmation but nothing is recorded.
-FORM_ENDPOINT_URL = ""
+FORM_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbzFI-kDBG3PImyH-nBkqt9OePGlOFHvnnz6WqqP1Rz-v0grvd16jq_Bij8esbz6MqKy/exec"
 
 
 def load_price_sheet(url):
