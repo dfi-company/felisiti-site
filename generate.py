@@ -279,6 +279,13 @@ for p in PRODUCTS:
 if _price_overrides:
     print("Applied price/stock overrides from sheet for %d models." % len(_price_overrides))
 
+# Discontinued models with no available product photos (not sold by the
+# manufacturer on eu.felicitysolar.com; likely China-domestic-only SKUs).
+# Filtered out here, after id/sku assignment, so remaining SKUs keep their
+# existing numbers and don't disturb the Google Sheet mapping.
+DISCONTINUED_CODES = {"IVCM1612P1G2-LV", "IVGM5-8KLP2G1-SA", "IVGM8KLP2G1-SALL", "IVGM5048"}
+PRODUCTS = [p for p in PRODUCTS if p["code"] not in DISCONTINUED_CODES]
+
 PRODUCT_PHOTOS_DIR = os.path.join(ROOT, "product-photos")
 
 for p in PRODUCTS:

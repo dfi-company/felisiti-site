@@ -289,54 +289,6 @@ window.FELICITY_PRODUCTS = [
     ]
   },
   {
-    "id": 7,
-    "sku": "FLC-007",
-    "slug": "felicity-solar-ivcm1612p1g2-lv",
-    "name": "Гібридний інвертор Felicity Solar IVCM1612P1G2-LV",
-    "category": "invertory",
-    "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
-    "oldPrice": null,
-    "discount": null,
-    "inStock": true,
-    "image": "img/felicity-solar-ivcm1612p1g2-lv.svg",
-    "url": "product/felicity-solar-ivcm1612p1g2-lv/",
-    "specs": [
-      [
-        "Тип",
-        "Гібридний"
-      ],
-      [
-        "Бренд",
-        "Felicity Solar"
-      ],
-      [
-        "Модель",
-        "IVCM1612P1G2-LV"
-      ],
-      [
-        "Номінальна потужність",
-        "16 кВт"
-      ],
-      [
-        "Напруга АКБ",
-        "48 В (LV)"
-      ],
-      [
-        "Вихідна напруга AC",
-        "220 В ±5%"
-      ],
-      [
-        "Фаза",
-        "Однофазний"
-      ],
-      [
-        "Гарантія",
-        "24 місяці"
-      ]
-    ]
-  },
-  {
     "id": 8,
     "sku": "FLC-008",
     "slug": "felicity-solar-ivcm2012-3224p1g2",
@@ -1057,54 +1009,6 @@ window.FELICITY_PRODUCTS = [
     ]
   },
   {
-    "id": 23,
-    "sku": "FLC-023",
-    "slug": "felicity-solar-ivgm5-8klp2g1-sa",
-    "name": "Гібридний інвертор Felicity Solar IVGM5-8KLP2G1-SA",
-    "category": "invertory",
-    "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
-    "oldPrice": null,
-    "discount": null,
-    "inStock": true,
-    "image": "img/felicity-solar-ivgm5-8klp2g1-sa.svg",
-    "url": "product/felicity-solar-ivgm5-8klp2g1-sa/",
-    "specs": [
-      [
-        "Тип",
-        "Гібридний"
-      ],
-      [
-        "Бренд",
-        "Felicity Solar"
-      ],
-      [
-        "Модель",
-        "IVGM5-8KLP2G1-SA"
-      ],
-      [
-        "Номінальна потужність",
-        "5-8 кВт"
-      ],
-      [
-        "Напруга АКБ",
-        "низька напруга (LV)"
-      ],
-      [
-        "Вихідна напруга AC",
-        "380 В (3 фази)"
-      ],
-      [
-        "Фаза",
-        "Трифазний"
-      ],
-      [
-        "Гарантія",
-        "24 місяці"
-      ]
-    ]
-  },
-  {
     "id": 24,
     "sku": "FLC-024",
     "slug": "felicity-solar-ivgm5k-6klp1g1",
@@ -1185,54 +1089,6 @@ window.FELICITY_PRODUCTS = [
       [
         "Напруга АКБ",
         "висока напруга (HV)"
-      ],
-      [
-        "Вихідна напруга AC",
-        "380 В (3 фази)"
-      ],
-      [
-        "Фаза",
-        "Трифазний"
-      ],
-      [
-        "Гарантія",
-        "24 місяці"
-      ]
-    ]
-  },
-  {
-    "id": 26,
-    "sku": "FLC-026",
-    "slug": "felicity-solar-ivgm8klp2g1-sall",
-    "name": "Гібридний інвертор Felicity Solar IVGM8KLP2G1-SALL",
-    "category": "invertory",
-    "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
-    "oldPrice": null,
-    "discount": null,
-    "inStock": true,
-    "image": "img/felicity-solar-ivgm8klp2g1-sall.svg",
-    "url": "product/felicity-solar-ivgm8klp2g1-sall/",
-    "specs": [
-      [
-        "Тип",
-        "Гібридний"
-      ],
-      [
-        "Бренд",
-        "Felicity Solar"
-      ],
-      [
-        "Модель",
-        "IVGM8KLP2G1-SALL"
-      ],
-      [
-        "Номінальна потужність",
-        "8 кВт"
-      ],
-      [
-        "Напруга АКБ",
-        "низька напруга (LV)"
       ],
       [
         "Вихідна напруга AC",
@@ -1529,54 +1385,6 @@ window.FELICITY_PRODUCTS = [
       [
         "Фаза",
         "Трифазний"
-      ],
-      [
-        "Гарантія",
-        "24 місяці"
-      ]
-    ]
-  },
-  {
-    "id": 33,
-    "sku": "FLC-033",
-    "slug": "felicity-solar-ivgm5048",
-    "name": "Гібридний інвертор Felicity Solar IVGM5048",
-    "category": "invertory",
-    "categoryName": "Гібридні інвертори Felicity Solar",
-    "price": 0,
-    "oldPrice": null,
-    "discount": null,
-    "inStock": true,
-    "image": "img/felicity-solar-ivgm5048.svg",
-    "url": "product/felicity-solar-ivgm5048/",
-    "specs": [
-      [
-        "Тип",
-        "Гібридний"
-      ],
-      [
-        "Бренд",
-        "Felicity Solar"
-      ],
-      [
-        "Модель",
-        "IVGM5048"
-      ],
-      [
-        "Номінальна потужність",
-        "5 кВт"
-      ],
-      [
-        "Напруга АКБ",
-        "48 В"
-      ],
-      [
-        "Вихідна напруга AC",
-        "220 В ±5%"
-      ],
-      [
-        "Фаза",
-        "Однофазний"
       ],
       [
         "Гарантія",
