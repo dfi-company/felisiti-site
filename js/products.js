@@ -59,7 +59,7 @@ window.FELICITY_PRODUCTS = [
     "oldPrice": null,
     "discount": null,
     "inStock": true,
-    "image": "img/felicity-solar-ivam8048p1g1.svg",
+    "image": "img/felicity-solar-ivam8048p1g1/01.png",
     "url": "product/felicity-solar-ivam8048p1g1/",
     "specs": [
       [
@@ -1595,7 +1595,7 @@ window.FELICITY_PRODUCTS = [
     "oldPrice": null,
     "discount": null,
     "inStock": true,
-    "image": "img/felicity-solar-t-rex-10khp3g01.svg",
+    "image": "img/felicity-solar-t-rex-10khp3g01/01.png",
     "url": "product/felicity-solar-t-rex-10khp3g01/",
     "specs": [
       [
